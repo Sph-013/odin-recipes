@@ -1,0 +1,35 @@
+* {
+    background-color: grey;
+    text-align: center;
+}
+
+.main-header,
+.recipe-header {
+    text-align: center;
+    color: aquamarine;
+}
+
+.main-header {
+    margin-bottom: 100px;
+}
+
+.recipe-menu {
+    font-size: 24px;
+    font-weight: 800;
+    color: blue;
+    text-decoration: none;
+}
+
+.recipe-menu:hover {
+    color: lightskyblue;
+    font-size: 28px;
+}
+
+img {
+    border-radius: 5%;
+}
+
+ul, 
+ol {
+    list-style-type: none;
+}
