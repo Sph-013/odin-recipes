@@ -1,0 +1,110 @@
+@font-face {
+    font-family: audowide-regular;
+    src: url(./Audiowide-Regular.ttf);
+}
+
+* {
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.main-header,
+.recipe-header {
+    margin-bottom: 100px;
+    font-family: 'audowide-regular', sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 5px 4px black;
+    color: brown;
+    width: 600px;
+    margin: 50px auto 250px;
+}
+
+.recipe-header {
+    margin: 25px auto;
+}
+
+.recipe-menu {
+    font-size: 24px;
+    font-weight: 800;
+    color: blue;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 5%;
+}
+
+ul, 
+ol {
+    list-style-type: none;
+}
+
+.recipes img {
+    width: 200px;
+    height: auto;
+}
+
+.recipes img:hover {
+    width: 210px;
+}
+
+.pic-text {
+    display: inline-block;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 0px 25px;
+}
+
+.wrapper-recipe {
+    margin: 55px auto 15px auto;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    width: 800px;
+}
+
+.spacer {
+    margin-bottom: 50px;
+}
+
+.back-button {
+    font-size: 24px;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+
+.back-button:hover {
+    background-color: rgb(240, 76, 76);
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: blue;
+    text-decoration: underline;
+}
